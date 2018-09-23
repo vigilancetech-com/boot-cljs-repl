@@ -7,11 +7,11 @@
 (def +version+ "0.4.0-SNAPSHOT")
 
 (task-options!
-  pom  {:project     'adzerk/boot-cljs-repl
+  pom  {:project     'vigilancetech/boot-cljs-repl
         :version     +version+
         :description "Boot task to provide a ClojureScript REPL."
-        :url         "https://github.com/adzerk/boot-cljs-repl"
-        :scm         {:url "https://github.com/adzerk/boot-cljs-repl"}
+        :url         "https://github.com/vigilancetech-com/boot-cljs-repl"
+        :scm         {:url "https://github.com/vigilancetech-com/boot-cljs-repl"}
         :license     {"EPL" "http://www.eclipse.org/legal/epl-v10.html"}})
 
 (deftask build []
