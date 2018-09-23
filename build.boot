@@ -18,6 +18,8 @@
 
 (require '[adzerk.bootlaces :refer :all])
 
+(bootlaces! +version+)
+
 (deftask build []
   (comp
    (pom)
